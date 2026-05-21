@@ -25,7 +25,10 @@ def download_pokemon_image(poke_id):
 def run_futures(limit, num_workers):
     start_time = time.time()
     
+<<<<<<< HEAD
     # Cria um pool de workers e envia as tarefas de ID de 1 até o limite
+=======
+>>>>>>> c02cab9 (chore: Correções no README e Requirements e adiciona script resultados e suas exportações)
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
         executor.map(download_pokemon_image, range(1, limit + 1))
         

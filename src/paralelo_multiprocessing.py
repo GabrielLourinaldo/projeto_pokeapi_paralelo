@@ -52,7 +52,10 @@ def run_multiprocessing(limit, num_processes):
     return time.time() - start_time
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     # Importante no Windows para o multiprocessing funcionar corretamente
+=======
+>>>>>>> c02cab9 (chore: Correções no README e Requirements e adiciona script resultados e suas exportações)
     multiprocessing.freeze_support() 
     
     print("--- INICIANDO TESTE MULTIPROCESSING ---")

@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 requests
+=======
+requests
+pandas
+openpyxl
+>>>>>>> c02cab9 (chore: Correções no README e Requirements e adiciona script resultados e suas exportações)

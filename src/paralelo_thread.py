@@ -53,8 +53,13 @@ def run_threading(limit, num_threads):
 
 if __name__ == "__main__":
     print("--- INICIANDO TESTE THREADING ---")
+<<<<<<< HEAD
     limites = [1000]
     config_threads = [4]
+=======
+    limites = [100, 500, 1000]
+    config_threads = [2, 4, 8]
+>>>>>>> c02cab9 (chore: Correções no README e Requirements e adiciona script resultados e suas exportações)
     num_execucoes = 5
     
     for limite in limites:
